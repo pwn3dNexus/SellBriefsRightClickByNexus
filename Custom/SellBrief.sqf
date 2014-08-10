@@ -16,7 +16,7 @@ player removeMagazine _itemUse;
 };
 
 _myMoney = player getVariable ["headShots",0];
-_myMoney = _myMoney + 12500;                           // Money trade value 
+_myMoney = _myMoney + 50000;                           // Money trade value 
 _body setVariable ["headShots", 0 , true];
 player setVariable ["headShots", _myMoney , true];
 
